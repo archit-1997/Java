@@ -32,6 +32,9 @@ public class Greeter {
     //NOTE : both the statements mean the same as above. Just different ways of writing the same thing
     //greeter.greet(performLambda);
     //greeter.greet(actionImplementationInnerClass);
+
+    //passing in the inner class which is actually the implementation of the interface
+    greeter.greet(actionImplementationInnerClass);
   }
 
   //here I'm passing a behaviour to the greet method --- NO
